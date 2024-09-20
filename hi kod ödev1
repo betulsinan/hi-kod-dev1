@@ -1,0 +1,536 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "7f0a7263-6bd0-48d5-af62-b93f66b7e145",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x= 7"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "e9930294-c23a-4927-a1ad-c0c7b25a8499",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "c4387292-d49d-4379-b1f7-ee4a25341090",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=float(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "2571c78f-2dda-4142-85fc-0cb03891a974",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "float"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "cacab8ad-5ca8-4db7-9973-f011b35f156d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a= 9.2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "f7435a2d-3357-4fd7-ace7-0a2822d639bc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "float"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "f6083a7b-790d-4a22-a40a-64326dca00b1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=int(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "7cf65c50-860a-4ce8-a293-f00beb000686",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "4257e662-e689-4bb8-80ef-995245f67f3b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "betul =18\n",
+    "mustafa =48\n",
+    "emir =10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "44eb011b-3822-494a-961f-0a2b8d686826",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 54,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "mustafa<betul"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "84366b60-080a-465f-82a4-6748b3e1ec8c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 56,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "emir<betul"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "45ce7c1d-6b04-44b0-b44f-cb2a68151204",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 58,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "betul>mustafa"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "997b8944-18f3-497a-8fb8-1e46c1ef3adb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Birinci degeri giriniz: 33\n",
+      "ikinci degeri giriniz: 67\n"
+     ]
+    }
+   ],
+   "source": [
+    "sayi1 =int(input(\"Birinci degeri giriniz:\"))\n",
+    "sayi2 =int(input(\"ikinci degeri giriniz:\"))\n",
+    "\n",
+    "toplama =sayi1 + sayi2\n",
+    "cikarma =sayi1 - sayi2\n",
+    "carpma =sayi1 * sayi2\n",
+    "bolme =sayi1 / sayi2\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "ddad36a3-b5e8-486b-adf2-4590a548c855",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(toplama)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "44536d30-9587-41f1-84e2-afd8b7e98850",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "-34\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cikarma)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "8633f01b-bed6-4c94-a21e-eecbb3877169",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2211\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(carpma)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "d58a18d9-1acd-4241-9f10-2f6efb98a3a5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0.4925373134328358\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(bolme)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "8971b780-3424-46e0-9b99-e64590feb935",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "isminizi giriniz: betul\n",
+      "yasinizi giriniz: 18\n",
+      "sehrinizi giriniz: istanbul\n",
+      "mesleginizi giriniz: istatistikci\n"
+     ]
+    }
+   ],
+   "source": [
+    "isim =input(\"isminizi giriniz:\")\n",
+    "yas =input(\"yasinizi giriniz:\")\n",
+    "sehir =input(\"sehrinizi giriniz:\")\n",
+    "meslek =input(\"mesleginizi giriniz:\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "eb69403a-39ad-4a83-8092-bd7a07d19b20",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "betul\n",
+      "18\n",
+      "istanbul\n",
+      "istatistikci\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(isim)\n",
+    "print(yas)\n",
+    "print(sehir)\n",
+    "print(meslek)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 106,
+   "id": "4ac65e21-f109-4fe4-8625-b0b371804ab2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "atolye= \" Hi-Kod Veri Bilimi Atölyesi \""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 110,
+   "id": "52dfa30c-ad30-45c0-92a1-a36c0f7aeabe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " Hi-Kod\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(atolye[0:7])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 112,
+   "id": "f0ffb480-71ae-40e0-ae82-618a6ca0f72a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Veri\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(atolye[8:12])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 118,
+   "id": "23843ad0-851d-4997-bb75-9decc3a137f4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " Bilimi\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(atolye[12:19])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 122,
+   "id": "fe723534-f65b-4ecb-916d-c7a3aefe8606",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Atölyesi\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(atolye[20:28])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 124,
+   "id": "e73146bd-dfae-4f0e-8d38-d4b2f69c2e76",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' HI-KOD VERI BILIMI ATÖLYESI '"
+      ]
+     },
+     "execution_count": 124,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "atolye.upper()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 126,
+   "id": "da1cf8c6-6c39-4616-837c-a138feba98e8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' hi-kod veri bilimi atölyesi '"
+      ]
+     },
+     "execution_count": 126,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "atolye.lower()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 130,
+   "id": "742e36ae-dfad-4391-b689-f960d1e4dce8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'02468'"
+      ]
+     },
+     "execution_count": 130,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "sayilar = \"0123456789\"\n",
+    "sayilar[::2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 134,
+   "id": "39a7596f-505c-4ea6-bdfa-e42f638de917",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'13579'"
+      ]
+     },
+     "execution_count": 134,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "sayilar[1::2]"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
